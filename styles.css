@@ -1,41 +1,120 @@
 body {
-    background-image: url(https://images.unsplash.com/photo-1542309174-2d0c02b8ff07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80);
-    background-color: rgb(16, 27, 9);
-    background-blend-mode: luminosity;
+    /* background-image: url(https://images.unsplash.com/photo-1542309174-2d0c02b8ff07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80); */
+    background-color: rgb(14, 141, 150);
+    background-blend-mode:hard-light;
 } 
 
 body{
     margin: 0px;
 }
 header {
-    border: outset 20px red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
     margin: 5px;
     color: white;
 }
 
-h1{
-    text-align: center;
+#h1{
+    background-color: rgb(236, 113, 113); 
+     background-size: 1000px; 
 }
 
-nav ul li{
-    list-style-type: none;
+h1{
+    padding: 25px;
+    color: white;
     text-align: center;
-    /* display: flex; */
-    display: inline;
+    font-size: 2.5rem
     
 }
 
+/* #h2{
+
+    background-color: rgb(236, 113, 113); 
+} */
+
+h2{
+   
+    text-align: center;
+    color: aliceblue;
+}
+
+#paragraph{
+    width: 50%;
+    font-size: 1.15rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: block;
+    background-color: rgb(236, 113, 113); 
+    padding: 1rem;
+}
+
+
+p{
+    background-color: rgb(236, 113, 113); 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:aliceblue;
+    
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+nav ul li{
+    display: inline;
+    text-align: center;
+    margin: 3rem;
+    
+}
+
+nav ul{
+   background-color: rgb(236, 113, 113) ;
+    height: 2rem;
+    margin: 0;
+    padding-top: 1rem;
+}
+
 img{
+    align-self:center;
     width: 700px;
 }
 
-#start{
-    background-color: rgb(163, 212, 235);
+.center{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.center2{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 500px;
+    height: 300px;
+}
+
+.center3{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 400px;
+    height: 300px;
 }
 
 
-img section 
+
+
+/* img section 
 {
     background-color: blueviolet;
     display: inline;
-}
+} */
