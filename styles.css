@@ -1,6 +1,38 @@
 body {
-    background-color: aqua;
+    background-color: rgb(246, 252, 251);
 } 
 
+body{
+    margin: 0px;
+}
+header {
+    border: outset 20px red;
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    text-align: center;
+    /* display: flex; */
+    display: inline;
+    
+}
+
+img{
+    width: 200px;
+}
+
+#start{
+    background-color: rgb(163, 212, 235);
+}
 
 
+img section 
+{
+    background-color: blueviolet;
+    display: inline;
+}
