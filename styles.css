@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(246, 252, 251);
+    background-image: url(https://images.unsplash.com/photo-1542309174-2d0c02b8ff07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80);
+    background-color: rgb(16, 27, 9);
+    background-blend-mode: luminosity;
 } 
 
 body{
@@ -8,6 +10,7 @@ body{
 header {
     border: outset 20px red;
     margin: 5px;
+    color: white;
 }
 
 h1{
@@ -23,7 +26,7 @@ nav ul li{
 }
 
 img{
-    width: 200px;
+    width: 700px;
 }
 
 #start{
