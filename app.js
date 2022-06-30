@@ -25,13 +25,13 @@ console.log(userResponse);
 if (userResponse.toLowerCase == "Yes")
 {
     // text.appendChild( 'Lets Go ' + response + '!!');
-    document.write('Lets Go ' + triniName() + '!!');
+    //document.write('Lets Go ' + triniName() + '!!');
 }
 
 else
 {
     // text.appendChild('Lets Still Plan Your Next Trip ' + response + '!!')
-    document.write('Lets Still Plan Your Next Trip ' + triniName() + '!!');
+    //document.write('Lets Still Plan Your Next Trip ' + triniName() + '!!');
 }
 // return userResponse
 }
@@ -98,7 +98,7 @@ function showPic(){
     const userPic = prompt("Awesome! how many times do you want to see it?");
 
     for(let i = 0; i < userPic; i++){
-     document.write("<img scr='CodingMeme.png' style='width:300px;'/>")
+     document.write("<img src='CodingMeme.png' style='width:300px;'/>")
 
     }
 }
