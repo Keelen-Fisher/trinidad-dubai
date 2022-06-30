@@ -117,7 +117,9 @@ img{
     height: 300px;
 }
 
-
+.docwrite{
+    transform-style: preserve-3d;
+}
 
 
 /* img section 
