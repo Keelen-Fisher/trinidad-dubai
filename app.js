@@ -5,7 +5,7 @@ function triniName(){
 let usersName = prompt("Welcome! before we start, what's your name? ");
 
 if (usersName != " && userName != null"){
-     document.write('Welcome to you next trip' + usersName + '!');
+     document.write('Welcome to you next trip ' + usersName + '!');
 }
 
 else{
@@ -83,7 +83,7 @@ else
 
 //
 function showPic(){
-     alert("PSSSST! I've this funy pick for you");
+     alert("PSSSST! I've got this funny pick for you");
      userSee = prompt("You wanna see it?");
 
      if(userSee == "yes"){
@@ -98,7 +98,7 @@ function showPic(){
     const userPic = prompt("Awesome! how many times do you want to see it?");
 
     for(let i = 0; i < userPic; i++){
-     document.write("<img src='CodingMeme.png' style='width:300px;'/>")
+     document.write("<img src='CodingMeme.png' style='width:300px; margin=20px'/>")
 
     }
 }
