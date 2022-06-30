@@ -88,6 +88,13 @@ img{
     width: 700px;
 }
 
+
+#script{
+    align-self: center;
+    font-size: large;
+}
+
+
 .center{
 
     display: block;

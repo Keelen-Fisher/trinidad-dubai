@@ -44,25 +44,37 @@
 
 // console.log(trini == country);
 // console.log("island");
-let usersinput = prompt("Do you prefer the island or the city?");
 
-console.log(usersinput);
 
-if (usersinput.toLowerCase() == "island")
-{
-console.log("Well then welcome to Trinidad!!");
-document.write("Well then welcome to Trinidad!!");
+
+
+// let usersinput = prompt("Do you prefer the island or the city?");
+
+// console.log(usersinput);
+
+// if (usersinput.toLowerCase() == "island")
+// {
+// console.log("Well then welcome to Trinidad!!");
+// document.write("Well then welcome to Trinidad!!");
+// }
+
+// else if (usersinput.toLowerCase() == "iceland")
+// {
+//     console.log("Go over to Xavier's page for more info!");
+//     document.write("Go over to Xavier's page for more info!" ); 
+// }
+
+
+
+// else 
+// {
+//     console.log("Well then welcome to Dubai!");
+//     document.write("Well then welcome to Dubai!!");
+// }
+
+let usersName = prompt("Welcome! before we start, what's your name? ");
+
+if (userName != " && userName != null"){
+     document.write('Welcome to you next trip' + userName + '!');
 }
 
-else if (usersinput.toLowerCase() == "iceland")
-{
-    console.log("Go over to Xavier's page fro more info!");
-    document.write("Go over to Xavier's page for more info!" ); 
-}
-
-
-else 
-{
-    console.log("Well then welcome to Dubai!");
-    document.write("Well then welcome to Dubai!!");
-}
