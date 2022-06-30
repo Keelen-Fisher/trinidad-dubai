@@ -83,10 +83,10 @@ else
 
 //
 function showPic(){
-     alert("PSSSST! I've got this funny pick for you");
-     userSee = prompt("You wanna see it?");
+     alert("PSSSST! Listen up, you could use some relaxation.");
+     userSee = prompt("Would you agree?");
 
-     if(userSee == "yes"){
+     if(userSee.toLowerCase == "yes"){
           console.log("Perfect! I'll show you");
 
      }
@@ -95,11 +95,40 @@ function showPic(){
           document.write("Aw man :( you're missing out!")
      }
 
-    const userPic = prompt("Awesome! how many times do you want to see it?");
+    const userPic = prompt("I;m here for you! What would you rank you stress 1-5 (1 being the lowest stress, and 5 being the highest)? ");
 
-    for(let i = 0; i < userPic; i++){
-     document.write("<img src='CodingMeme.png' style='width:300px; margin=20px'/>")
+    for(let i = 0; i <= 5; i++){
 
+     if(userPic == 1)
+     {
+          alert("Oh you need this more than I do!! Lets get started then.");
+     }
+
+
+     else if(userPic == 2)
+     {
+          alert("We're on the same boat! Let's see what we can do for you.");
+     }
+
+     else if(userPic == 3)
+     {
+          alert("Okay, not doing bad but you can feel better! Heres what we have for you! ")
+     }
+
+     else if(userPic == 4)
+     {
+          alert("Good! You should still take a look at what we've got for you! ")
+     }
+
+     else if(userPic == 5)
+     {
+          alert("Look at you, being all happy and positive!!! Why not check out how you can be happier? ")
+     }
+
+     else{
+          alert("All good, maybe we can still find something for you to enjoy: ")
+     }
+     return userPic
     }
 }
 
